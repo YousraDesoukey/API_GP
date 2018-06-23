@@ -7,8 +7,11 @@ from django.db import models
 
 
 class Image(models.Model):
-    image = models.FileField(upload_to='media/hiero/image', blank=True, null=True)
-    text = models.CharField(max_length=10000)
+    image = models.TextField( blank=True, null=True)
+    # image = models.FileField(upload_to='media/hiero/image', blank=True, null=True)
+    #text = models.CharField(max_length=10000)
+#feen media da?
+#ana kunt fakra eno hy-create el folder kaman :'DDD mmkn ykon bi create allah a3lm
 
 
     def __str__(self):
