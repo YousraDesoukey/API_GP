@@ -10,7 +10,7 @@ djangorestframework-jwt==1.11.0
 drf-writable-nested==0.3.2
 idna==2.6
 itypes==1.1.0
-Jinja2==2.10
+Jinja2==2.11.3
 jsonfield==2.0.2
 Markdown==2.6.11
 markup==0.2
